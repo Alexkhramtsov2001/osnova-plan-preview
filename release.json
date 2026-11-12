@@ -1,10 +1,13 @@
 {
-  "profile": "OSNOVA PLAN U07 mobile-test",
-  "authorizedAt": "2026-11-04",
-  "sourceSnapshot": "osnova-plan-2026-11-04-u07-accepted.osnova-backup.json.gz",
-  "sourceSnapshotSha256": "2cc892e08ddcac9bbaa9f14d5c3a35e2bc6bb8b7a6c2855a925239736457c426",
+  "profile": "OSNOVA PLAN Q01.1 mobile-test",
+  "preparedAt": "2026-11-13",
+  "sourceSnapshot": "osnova-plan-2026-11-13-q011-recovered.osnova-backup.json.gz",
+  "sourceSnapshotSha256": "8fde652c229daca78557a9be03947e5a950baf8d7d99d39dab92ac7b233fdf39",
+  "auditedBuildManifestSha256": "021138e8a9b405178e700971823d3e8b8605835891ccb033dfc6787ef2df17e5",
+  "previousCommit": "fb52f42301faab3c11ca0232b0b4e457712cecb9",
   "sourcePublished": false,
   "ownerM1": "pending",
+  "browserFloorVerification": "pending",
   "files": [
     {
       "path": ".nojekyll",
@@ -13,8 +16,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3294,
-      "sha256": "04c29c6725fe7d24da5e28e12da3c5b0826b6bf7fc0858d73708e19346df9d66"
+      "bytes": 1634,
+      "sha256": "529b4c491c3e1f92f032d4ef868f2662ff5a6d0b02ae355f957e2fd83dcfb6fa"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -22,24 +25,39 @@
       "sha256": "83717ff2352c6a31eb7b02f76f9ca3b4dd33e01146898c02bf64aa249a4df56e"
     },
     {
-      "path": "index.html",
-      "bytes": 655,
-      "sha256": "acce1bbfe09842c08aacb6ee4d16c9b0ca2cbf3ccc25bf68763bad6e8555c6a3"
+      "path": "assets/demo-CzK1biRs.js",
+      "bytes": 3393,
+      "sha256": "e4268bfbbfd7afa02b25dc551d422a069164cd6eaeeb216dbc46f3df20cf4728"
     },
     {
-      "path": "plan.html",
-      "bytes": 655,
-      "sha256": "acce1bbfe09842c08aacb6ee4d16c9b0ca2cbf3ccc25bf68763bad6e8555c6a3"
+      "path": "assets/generate.worker-B1_WEMfo.js",
+      "bytes": 472294,
+      "sha256": "f4cd4a861cb22f9ad38eec02e91611f407a9446ce909bb919984aaa8fd66ea90"
     },
     {
-      "path": "assets/plan-qSEW2gH9.js",
-      "bytes": 73939,
-      "sha256": "ad492b798fbc9b3cfbc2d51dc9e2e53796672d8eaadc9e3753ee95128173c879"
+      "path": "assets/generation-B1bjEOsE.css",
+      "bytes": 2452,
+      "sha256": "d7fee0cac170cf196bbf21b1e7e734f22ecc68decc0fb7ddf7b1c27c288085ad"
     },
     {
-      "path": "assets/styles-Z2aqcud-.js",
-      "bytes": 367609,
-      "sha256": "5309ce2ecb635167717d407ab5faf8128ac04f1fc565f26a6e0c21f6ea9c711e"
+      "path": "assets/generation-Ben-Fai7.js",
+      "bytes": 66698,
+      "sha256": "08e9adaace4966f19e28410931fb93cc71ef3001e6baedad9f5dbff093c38711"
+    },
+    {
+      "path": "assets/plan-DYocEiyA.js",
+      "bytes": 61380,
+      "sha256": "1daf83a4178471de2d215a4c445dc2c031a4b739c60631e666d9dfeae6fe9d48"
+    },
+    {
+      "path": "assets/plan-HHRg2PeV.css",
+      "bytes": 11767,
+      "sha256": "bfa9bf228347b735afbe586935aede7f164a2aa34856dacde837b64362fec34e"
+    },
+    {
+      "path": "assets/styles-C3fsjHJU.js",
+      "bytes": 409773,
+      "sha256": "21bbf9b4b9b6cc64a638d66afd1474836910c7366124d6a7dd4d88626d43a1d1"
     },
     {
       "path": "assets/styles-CebqkaTT.css",
@@ -47,14 +65,24 @@
       "sha256": "afbeda96493bbcf8133f21cd9e029c42e5bb04f7a4e60b2569c1107524736822"
     },
     {
-      "path": "assets/plan-CzhnMifh.css",
-      "bytes": 11611,
-      "sha256": "ffb67bb085a0f2a08e8dae3d4a4ae5a4ea12bfc2dcc2a87c03872f436d8f96d7"
+      "path": "demo-120.html",
+      "bytes": 781,
+      "sha256": "1058858feb7292c93c0f780fb4aa20a8d14b4baf938f62d741c3a1f20c16ba7c"
     },
     {
-      "path": "assets/generate.worker-C1CjNLrM.js",
-      "bytes": 404496,
-      "sha256": "0a505a43a65d341719f6adfae22ce7e5cc0b8a6ec06e96a8a79b11635346df0d"
+      "path": "demo-80.html",
+      "bytes": 779,
+      "sha256": "a7c86ed447f4cb1c95bad0157256f4a512060fc9a2232eadc5a15976777de5a8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 817,
+      "sha256": "dde266f2f06b3559d6a41bcc59c70e2a6e1a148818643ec66edbf44b79f45a55"
+    },
+    {
+      "path": "plan.html",
+      "bytes": 817,
+      "sha256": "dde266f2f06b3559d6a41bcc59c70e2a6e1a148818643ec66edbf44b79f45a55"
     }
   ]
 }
